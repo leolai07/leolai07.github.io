@@ -1,0 +1,14 @@
+{
+  "hash": "310a955248016fdd58311600fd3adaf7",
+  "result": {
+    "markdown": "###Assignment 1\n\n![springleaf](springleaf.png)\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
