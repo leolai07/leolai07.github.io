@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  title: "Leo Lai"
+  navbar:
+    background: "blue"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: resume.pdf
+        text: CVS
+    right: 
+      - href: Assignment1.qmd
+        text: Assignment_1
+      - href: Assignment2.qmd
+        text: Assignment_2
+
+format:
+  html:
+    toc: true
+    toc-location: left
+    code-link: true
+    code-overflow: wrap
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    fontsize: 1em
+    self-contained: true
+    theme: 
+      light: cosmo
+      dark: darkly
+    css: styles.css
+execute: 
+  freeze: auto
+
+editor: visual
+
